@@ -1,0 +1,18 @@
+{
+    "geode": "3.0.0-beta.1",
+    "gd": {
+        "android": "2.208"
+    },
+    "id": "yourname.ttf_font_mod",
+    "version": "v1.0.0",
+    "name": "TTF Font Swapper",
+    "developer": "You",
+    "description": "Changes the game font using a .ttf file",
+    "settings": {
+        "font-path": {
+            "name": "Select .ttf File",
+            "type": "file",
+            "default": ""
+        }
+    }
+}
