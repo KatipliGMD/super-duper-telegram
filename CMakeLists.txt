@@ -1,13 +1,12 @@
 cmake_minimum_required(VERSION 3.13)
 
-# This name can be anything
+# This must match your project name
 project(TTFFontMod)
 
-# This tells the compiler to use the Geode SDK
+# This line is the "magic" that fixes your error
 find_package(Geode REQUIRED)
 
-# This is the "Map" for the compiler
-# It tells it to take your main.cpp and turn it into the mod
+# This tells it where your code is
 add_geode_mod(
     ${GEODE_MOD_ID}
     SOURCES main.cpp
